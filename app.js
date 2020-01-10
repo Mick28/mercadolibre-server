@@ -17,7 +17,8 @@ app.get('/api/items', function (req, res) {
   	  author: {
   	  	name: 'Miguel',
   	  	lastname: 'Escurra'
-  	  }
+  	  },
+  	  items: data.results.slice(0, 4)
   	})
   })
 })
