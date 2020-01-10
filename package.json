@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Mick28/mercadolibre-server#readme",
   "dependencies": {
+    "axios": "^0.19.1",
     "express": "^4.17.1"
   }
 }
