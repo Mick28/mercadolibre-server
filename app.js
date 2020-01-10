@@ -18,9 +18,15 @@ app.get('/api/items', function (req, res) {
   	  	name: 'Miguel',
   	  	lastname: 'Escurra'
   	  },
-  	  items: data.results.slice(0, 4)
+  	  items: data.results.slice(0, 4).map(function(result) {
+  	  	return {
+  	  	  id: result.id,
+  	  	  title: result.title
+  	    }
+  	  })
   	})
   })
+
 })
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
