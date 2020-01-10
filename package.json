@@ -1,0 +1,19 @@
+{
+  "name": "mercadolibre-server",
+  "version": "1.0.0",
+  "description": "mercadolibre-server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mick28/mercadolibre-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mick28/mercadolibre-server/issues"
+  },
+  "homepage": "https://github.com/Mick28/mercadolibre-server#readme"
+}
